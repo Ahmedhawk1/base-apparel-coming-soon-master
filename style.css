@@ -4,8 +4,21 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Josefin Sans
+    font-family: Josefin Sans;
+    text-decoration: none;
+    
+  
 }
+
+body{
+  box-sizing:border-box;
+}
+
+
+a{
+  color: #0e0e0e;
+}
+
 
 section.contiener{
     background-image: url(images/bg-pattern-desktop.svg);
@@ -95,7 +108,7 @@ span{
 
 
 button{
-    position: absolute;
+    /* position: absolute; */
     right:201px;
     border: 2px solid #fa6161  ;
     width: 70px;
@@ -182,6 +195,10 @@ left: -176px;
 
 }  
 
+
+.attribution {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 600px) and (max-width:768px){
