@@ -1,177 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Josefin Sans;
-    text-decoration: none;
-    
-  
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans;
+  text-decoration: none;
 }
 
-body{
-  box-sizing:border-box;
+body {
+  box-sizing: border-box;
 }
 
-
-a{
+a {
   color: #0e0e0e;
 }
 
-
-section.contiener{
-    background-image: url(images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    
+section.contiener {
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
-
-
-
-
-
-.contiener .photo{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.contiener .photo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
-
-.logo img{
- margin:  64px 0  0 200px;
+.logo img {
+  margin: 64px 0 0 200px;
 }
 
-
-.girl{
-display: flex;
-justify-content: end; 
-margin: 5px;
-height: 100vh ;
-
+.girl {
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+  height: 100vh;
 }
 
-
-.girl img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    object-fit: cover;
-
-
+.girl img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
 }
 
-.text{
-width: 50%;
-position: relative;
+.text {
+  width: 50%;
+  position: relative;
 }
 
-h1{
-    width: 100%;
-    font-size: 60px;
-    margin: 120px 0  0 200px;
-    letter-spacing: 10px;
-    line-height: 1.2;
-    font-weight: 500;
-
-
+h1 {
+  width: 100%;
+  font-size: 60px;
+  margin: 120px 0 0 200px;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: 500;
 }
 
-p{
-    margin-left:200px;
-    color:  hsl(0, 93%, 68%);
-    width: 100%;
-    font-size: 15px;
-    line-height: 2;
-
-
+p {
+  margin-left: 200px;
+  color: hsl(0, 93%, 68%);
+  width: 100%;
+  font-size: 15px;
+  line-height: 2;
 }
 
-span{
-    color: hsl(0, 36%, 70%);
+span {
+  color: hsl(0, 36%, 70%);
 }
 
-.inputs{
-    position: relative;
+.inputs {
+  position: relative;
 }
 
-.inputs .mail{
-    width: 300px;
-    margin-left:200px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px #c16363 solid;
-    outline: none;
-
+.inputs .mail {
+  width: 300px;
+  margin-left: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px #c16363 solid;
+  outline: none;
 }
 
-
-
-
-button{
-    /* position: absolute; */
-    right:201px;
-    border: 2px solid #fa6161  ;
-    width: 70px;
-    padding: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: #f8bda2 ;
- 
-}  
-
-button i{
-    border: none;
-   color: #fa6161;
+button {
+  /* position: absolute; */
+  right: 201px;
+  border: 2px solid #fa6161;
+  width: 70px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #f8bda2;
 }
 
+button i {
+  border: none;
+  color: #fa6161;
+}
 
 /* query */
 
-
-
-
-@media only screen and (min-width: 320px) and (max-width:480px){
-
-  section.contiener{
-
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  section.contiener {
     /* background-image: url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-size: c;
     position: relative;
     width: 20%;
     height: 50vh; */
-    
-
   }
-
-
 
   .logo img {
     margin: 10px 0 0 13px;
-
   }
 
-
-
-
-
-.text::before{
-
-  content: "";
-  display: block;
-  background-image: url(images/hero-mobile.jpg);
-  background-size: cover;
-  width: 281px;
-  height: 150px;
-  transform: translate(25%, 15%);
-}
-
-
+  .text::before {
+    content: "";
+    display: block;
+    background-image: url(images/hero-mobile.jpg);
+    background-size: cover;
+    width: 281px;
+    height: 150px;
+    transform: translate(25%, 15%);
+  }
 
   h1 {
     font-size: 40px;
@@ -180,63 +134,51 @@ button i{
     line-height: 1;
     text-align: center;
   }
- 
-p{
 
-  margin: 10px 0 0 110px;
-  margin-bottom: 200/px;
-  text-align: center;
+  p {
+    margin: 10px 0 0 110px;
+    margin-bottom: 200 / px;
+    text-align: center;
+  }
 
-}
+  .inputs .mail {
+    width: 182px;
+    margin-left: 120px;
+    margin-top: 23px;
+  }
 
+  button {
+    position: relative;
+    top: 63px;
+    left: -155px;
+  }
 
+  button::after {
+    content: "Login";
+    color: #f47b43;
+  }
 
-.inputs .mail {
-  width: 182px;
-  margin-left: 120px;
-  margin-top: 23px;
+  .fa-solid,
+  .fas {
+    display: none;
+  }
 
-}
+  .girl {
+    width: 20%;
+    height: auto;
+    margin: 250px 0px 0px 10px;
+  }
 
-
-button{
-  position: relative;
-  top: 63px;
-  left: -155px;
-}
-
-button::after{
-  content: "Login";
-  color:#f47b43;
-}
-
-.fa-solid, .fas{
-  display: none;
-}
-
-.girl{
-  width: 20%;
-  height: auto;
-  margin: 250px 0px 0px 10px;
-
-}
-
-
-.girl img{
-
-  display: none;
-  width: 230px;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  
+  .girl img {
+    display: none;
+    width: 230px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
-
-@media only screen and (min-width: 600px) and (max-width:768px){
-  
-
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .logo img {
     margin: 64px 0 0 13px;
   }
@@ -244,35 +186,24 @@ button::after{
   h1 {
     margin: 120px 0 0 48px;
   }
- 
-p{
-  margin: 10px 0 0 48px;
 
-}
+  p {
+    margin: 10px 0 0 48px;
+  }
 
+  .girl {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 130px;
+  }
 
-.girl {
-display: flex;
-align-items: center;
-  position: relative;
-  margin-top: 130px;
-
-
-}
-
-.girl img{
-width: 400%;
-height: 50vh;
-border-radius: 50px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-
-
-
-
-
+  .girl img {
+    width: 400%;
+    height: 50vh;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 /* 
 @media only screen and (min-width: 768px) and (max-width:1024px){
