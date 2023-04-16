@@ -777,6 +777,10 @@ h5 {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  .product-list img{
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
